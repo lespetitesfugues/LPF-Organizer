@@ -1,32 +1,57 @@
 # LPF Organizer
 
-**Your photographs. Your folders. Your rules.**
+**Organize your photographs. Keep your files. Skip the cloud.**
 
-LPF Organizer is a free macOS application for organizing, culling and editing photo metadata.
+LPF Organizer is a lightweight, native macOS application for organizing photographs, culling images, and editing XMP metadata.
 
-It works directly with your local files and folders. No cloud, no catalogue, no account and no subscription.
+It follows a simple philosophy: your photographs remain ordinary files and folders, without a proprietary photo library, cloud service, or subscription.
 
-### What it does
+## Features
 
-- **Organize** photographs into date-based folders, with Copy, Move, Dry Run and Undo.
-- **Cull** photographs using Keep, Maybe and Reject decisions, with star ratings.
-- **Metadata** editing with non-destructive XMP sidecar files.
-- **RAW + JPEG** pairing for a straightforward photography workflow.
+- Organize photographs into date-based folders
+- Copy or move files with a dry-run preview
+- Cull photographs using Keep, Maybe, and Reject decisions
+- Assign star ratings
+- Edit XMP metadata, including titles, descriptions, keywords, copyright, and location information
+- Work with RAW and JPEG photographs and their XMP sidecars
+- Open selected photographs handed off from LPF Explorer
 
-### Download
+## Requirements
 
-Get the latest version from the [Releases](https://github.com/lespetitesfugues/LPF-Organizer/releases) page.
+- macOS 14 or later
 
-**Requires macOS 14 Sonoma or later.**
+## Download and installation
 
-The application is not currently notarized by Apple. Follow the installation instructions at [lpf.one](https://lpf.one) if macOS blocks the first launch.
+1. Open the **Releases** section of this repository.
+2. Download the latest `LPF-Organizer-*.dmg`.
+3. Open the disk image.
+4. Drag **LPF Organizer** into the Applications folder.
+5. Eject the disk image.
 
-### Support
+**Important:** This release is not yet signed with an Apple Developer ID or notarized by Apple. macOS may prevent it from opening initially. If you trust the downloaded application, try opening it, then go to **System Settings → Privacy & Security → Open Anyway** and confirm.
 
-LPF Organizer is free to use. If you find it useful, consider supporting its development through the donation link at [lpf.one](https://lpf.one).
+Do not bypass a warning that macOS has detected malware or a damaged application.
 
-### Source code
+## Companion application
 
-This repository distributes the application binaries and release information. The source code is not publicly available.
+**LPF Explorer** is a separate application for searching, browsing, and selecting photographs in your existing archive.
 
-© Les petites fugues. All rights reserved.
+The two applications complement each other: Organizer manages photographs and metadata; Explorer helps you find and use them.
+
+## Privacy
+
+LPF Organizer works with local files and folders. No cloud account or proprietary photo library is required.
+
+## Support the project
+
+LPF Organizer is free to use. If you find it useful, you can support further development with a voluntary contribution.
+
+[Support LPF on Ko-fi](https://ko-fi.com/lpfone)
+
+## Website
+
+[LPF — Les Petites Fugues](https://www.lpf.one)
+
+## License
+
+LPF Organizer is distributed as freeware. The source code is not publicly available. No open-source license is granted.
