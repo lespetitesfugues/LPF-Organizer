@@ -22,15 +22,13 @@ It follows a simple philosophy: your photographs remain ordinary files and folde
 
 ## Download and installation
 
-1. Open the **Releases** section of this repository.
-2. Download the latest `LPF-Organizer-*.dmg`.
-3. Open the disk image.
-4. Drag **LPF Organizer** into the Applications folder.
-5. Eject the disk image.
+1. Open the [latest release](https://github.com/lespetitesfugues/LPF-Organizer/releases/latest).
+2. Download `LPFOrganizer-1.0.1.zip`.
+3. Double-click the ZIP file to extract **LPF Organizer.app**.
+4. Move **LPF Organizer.app** to your Applications folder.
+5. Launch the application normally.
 
-**Important:** This release is not yet signed with an Apple Developer ID or notarized by Apple. macOS may prevent it from opening initially. If you trust the downloaded application, try opening it, then go to **System Settings → Privacy & Security → Open Anyway** and confirm.
-
-Do not bypass a warning that macOS has detected malware or a damaged application.
+**LPF Organizer is signed with an Apple Developer ID certificate and notarized by Apple.** No special security settings or Gatekeeper workarounds are required. On first launch, macOS may display its normal confirmation that the application was downloaded from the internet.
 
 ## Companion application
 
@@ -40,7 +38,7 @@ The two applications complement each other: Organizer manages photographs and me
 
 ## Privacy
 
-LPF Organizer works with local files and folders. No cloud account or proprietary photo library is required.
+LPF Organizer works with local files and folders. No cloud account or proprietary photo library is required. The app makes an HTTPS request to `lpf.one` to check for software updates; it does not upload your photographs or their metadata.
 
 ## Support the project
 
